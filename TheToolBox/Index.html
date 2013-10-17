@@ -1,9 +1,152 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en-za">
 <head>
-    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Andrey Ramsay" />
+    <meta name="description" content="Crossfit, cross functional fitness, working out, pumping iron, strength, conditioning">
+    <link rel="shortcut icon" href="/favicon.png">
+
+    <title>The ToolBox - Functional Fitness Training</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/Content/bootstrap/bootstrap.css" rel="stylesheet">
+    <link href="/Content/site.css" rel="stylesheet" media="screen" />
 </head>
 <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">WODs<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header">Nav header</li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" placeholder="Email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Password" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-success">Sign in</button>
+                </form>
+            </div><!--/.navbar-collapse -->
+        </div>
+    </div>
 
+    <div class="container logo">
+        &nbsp;
+    </div>
+    <div class="container">
+        <div class="col-md-8">
+            <div class="jumbotron">
+                <div class="container">
+                    <div id="myCarousel" class="carousel slide">
+                        <!-- Indicators -->
+                        <!--<ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>-->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="centerDiv">
+                                    <img src="/Content/Images/Carousel/1.jpg">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="centerDiv">
+                                    <img src="/Content/Images/Carousel/2.jpg">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="centerDiv">
+                                    <img src="/Content/Images/Carousel/3.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="centerDiv wodholder">
+                <h1>Today's WOD</h1>
+
+                <div>
+                    10 Rounds:<br /><br />
+                    <ul>
+                        <li>5 Deadlift (130kg)</li>
+                        <li>10 Kb Swings (24kg)</li>
+                        <li>15 Air Squats</li>
+                    </ul><br/>
+                    <i>Remember to adjust your weights</i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-lg-4">
+                <h2>Functional Fitness</h2>
+                <p>
+                    Want to be strong? Not benchpress strong, but <i>really</i> strong? The ToolBox specialises in bringing out your inner fitness freak!
+                </p>
+                <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <h2>Strength Training</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <h2>Conditioning</h2>
+                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+            </div>
+        </div>
+
+        <hr>
+
+        <footer>
+            <p>&copy; The ToolBox 2013</p>
+        </footer>
+    </div> <!-- /container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/Scripts/jquery-2.0.3.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('.carousel').carousel({
+                interval: 4000
+            });
+        });
+    </script>
 </body>
 </html>

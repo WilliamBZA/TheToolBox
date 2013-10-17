@@ -59,6 +59,32 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap\bootstrap-responsive.css" />
+    <Content Include="Content\bootstrap\bootstrap-responsive.min.css" />
+    <Content Include="Content\bootstrap\bootstrap.css" />
+    <Content Include="Content\bootstrap\bootstrap.min.css" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Images\Carousel\1.jpg" />
+    <Content Include="Content\Images\Carousel\2.jpg" />
+    <Content Include="Content\Images\Carousel\3.jpg" />
+    <Content Include="Scripts\Application\Application.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\ember-data-1.0.0-beta2.debug.js" />
+    <Content Include="Scripts\ember-data-1.0.0-beta2.js" />
+    <Content Include="Scripts\ember-data-1.0.0-beta2.min.js" />
+    <Content Include="Scripts\handlebars.min.js.map">
+      <DependentUpon>handlebars.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\ember-data-1.0.0-beta2.min.js.map">
+      <DependentUpon>ember-data-1.0.0-beta2.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\ember-1.0.0.min.js.map">
+      <DependentUpon>ember-1.0.0.js</DependentUpon>
+    </Content>
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -67,33 +93,32 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap\bootstrap.css" />
-    <Content Include="Content\bootstrap\bootstrap.min.css" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Images\bg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Images\logo.png" />
+    <Content Include="Content\site.css" />
+    <Content Include="favicon.ico" />
     <Content Include="Index.html" />
     <Content Include="packages.config" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
     <None Include="Scripts\jquery-2.0.3.intellisense.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\ember-1.0.0.debug.js" />
     <Content Include="Scripts\ember-1.0.0.js" />
     <Content Include="Scripts\ember-1.0.0.min.js" />
+    <Content Include="Scripts\handlebars.min.js" />
     <Content Include="Scripts\handlebars.js" />
     <Content Include="Scripts\handlebars.runtime.js" />
     <Content Include="Scripts\jquery-2.0.3.js" />
     <Content Include="Scripts\jquery-2.0.3.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\references.js" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-2.0.3.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
